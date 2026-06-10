@@ -198,6 +198,23 @@ Follow these steps to set up and run the project on your machine:
 ## 👤 Author
 **MJ – Junior Desktop / Back-End Developer**  
 C# .NET | SQL Server | WinForms | Desktop Applications  
+---
+## 🎥 Demo
+
+Here is a short demo video showing the DVLD Management System in action:
+
+[Watch Demo Video](Demo/demo-video.mp4)
+
+### 🔐 Login → Dashboard
+![Login](Screenshots/login.png)
+![Dashboard](Screenshots/main-dashboard.png)
+
+### 👤 People Management
+![People](Screenshots/people-management.png)
+
+### 🚗 Licenses Module
+![Licenses](Screenshots/licenses.png)
+
 
 ---
 ## 📸 Screenshots
@@ -222,3 +239,12 @@ This project demonstrates:
 - Capability to design and organize UI  
 - Experience with real-world workflows  
 - Readiness for junior developer roles  
+
+
+## 🛡 Badges
+
+![GitHub stars](https://img.shields.io/github/stars/Mohammed-Aljumaa/DVLD19?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Mohammed-Aljumaa/DVLD19?style=social)
+![GitHub issues](https://img.shields.io/github/issues/Mohammed-Aljumaa/DVLD19)
+![GitHub license](https://img.shields.io/github/license/Mohammed-Aljumaa/DVLD19)
+
