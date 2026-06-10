@@ -154,7 +154,21 @@ Follow these steps to set up and run the project on your machine:
 C# .NET | SQL Server | WinForms | Desktop Applications  
 
 ---
+## 📸 Screenshots
 
+### 🔐 Login Screen
+![Login](Screenshots/login.png)
+
+### 🏠 Main Dashboard
+![Dashboard](Screenshots/main-dashboard.png)
+
+### 👤 People Management
+![People](Screenshots/people-management.png)
+
+### 🚗 Licenses Module
+![Licenses](Screenshots/licenses.png)
+
+---
 ## ⭐ Why This Project Matters
 This project demonstrates:
 - Ability to build a complete system from scratch  
