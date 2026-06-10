@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+Debug/
+Release/
+*.user
+*.suo
+*.cache
+*.log
+[Bb]uild/
+[Tt]emp/
+
+# Packages
+packages/
+*.nupkg
+
+# Others
+*.dbmdl
+*.jfm
