@@ -112,6 +112,52 @@ Each table is connected using proper foreign keys to simulate real DVLD workflow
 3. Open the solution in Visual Studio.  
 4. Build and run the project.  
 5. Login using the default credentials (if provided).  
+---
+## 🗄 Database
+
+The DVLD Management System relies on a structured SQL Server database that contains all core entities required for managing people, drivers, licenses, tests, and user accounts.  
+To run the project successfully, the database must be restored and connected properly.
+
+### 1️⃣ Restoring the Database
+To restore the database:
+
+1. Open **SQL Server Management Studio (SSMS)**.
+2. Right‑click **Databases** → **Restore Database**.
+3. Select the provided `.bak` file.
+4. Complete the restore process.
+5. Ensure the database name matches the one used in the project (e.g., `DVLD`).
+
+### 2️⃣ Main Tables
+The database includes the following essential tables:
+
+- **People** – Stores personal information.  
+- **Drivers** – Links people to driver records.  
+- **Licenses** – Stores issued licenses and their statuses.  
+- **LicenseClasses** – Defines license categories.  
+- **Applications** – Tracks license applications.  
+- **Tests** – Stores test attempts and results.  
+- **TestTypes** – Defines test categories (Vision, Written, Street).  
+- **Users** – Stores system login accounts.
+
+These tables are connected using foreign keys to simulate real DVLD workflows and ensure data consistency.
+
+### 3️⃣ Updating the Connection String
+After restoring the database, update the connection string:
+
+- Open the project in Visual Studio.
+- Navigate to:  
+  `DvldDataAccessLayer → DALClasses → ApplicationDB.cs`
+- Replace the server name with your SQL Server instance:
+
+
+### 4️⃣ Verifying the Connection
+Once the connection string is updated:
+
+- Build the solution.
+- Run the application.
+- Test login using the default credentials (if included).
+
+If the application loads the dashboard without errors, the database connection is working correctly.
 
 ---
 ## 🛠 Installation
